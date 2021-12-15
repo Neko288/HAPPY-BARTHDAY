@@ -1,3 +1,5 @@
+alert('このサイトはBGMが流れます。音声を許可してくれると最大限楽しめます。')
+
 particlesJS("particles-js",{
 	"particles":{
 		"number":{
