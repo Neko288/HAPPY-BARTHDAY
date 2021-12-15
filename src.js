@@ -44,7 +44,7 @@ particlesJS("particles-js",{
 			},
 			"move":{
 				"enable":true,
-			"speed":5,//hayasa
+			"speed":2,//hayasa
 			"direction":"bottom",
 			"random":false,
 			"straight":false,
