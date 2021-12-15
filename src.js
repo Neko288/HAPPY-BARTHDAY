@@ -105,5 +105,5 @@ recalc();
 
 var urlParam = location.search.substring(1);
 if(urlParam) {
-  document.getElementById("dark-or-white").innerHTML = '<link rel="stylesheet" href="dark-style.css" id="dark-or-white">';
+  document.getElementById("dark-or-white").innerHTML = '<link rel="stylesheet" href="dark-style.css">';
 }
