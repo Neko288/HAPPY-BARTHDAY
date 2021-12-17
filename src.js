@@ -3,7 +3,7 @@ const messageMUSIC = function() {
   spinner.classList.add('loaded');
 }
 const spinner = document.getElementById('loading');
-setTimeout(messageMUSIC, 1500);
+setTimeout(messageMUSIC, 1700);
 
 //kamihubuki
 particlesJS("particles-js",{
