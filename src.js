@@ -1,5 +1,11 @@
-alert('このサイトはBGMが流れます。音声を許可してくれると最大限楽しめます。')
 
+const messageMUSIC = function() {
+  spinner.classList.add('loaded');
+}
+const spinner = document.getElementById('loading');
+setTimeout(messageMUSIC, 1500);
+
+//kamihubuki
 particlesJS("particles-js",{
 	"particles":{
 		"number":{
@@ -76,6 +82,8 @@ particlesJS("particles-js",{
 
 'use strict';
 
+//タイマー
+
 function countdown(due){
   const now = new Date();
   const rest = due.getTime() - now.getTime();
@@ -104,8 +112,19 @@ function refresh() {
 }
 
 recalc();
-
+//ダークモードページに行く。
 var urlParam = location.search.substring(1);
 if(urlParam) {
   document.getElementById("dark-or-white").innerHTML = '<link rel="stylesheet" href="dark-style.css">';
 }
+
+//Typing
+const typing = () => {
+  sentence='誕生日おめでとう。今までありがとう。これからもよろしく!';
+  [...sentence].forEach((character, index) => {
+    setTimeout(() => {
+      document.querySelector('#typing').textContent += character;
+    }, 160 * ++index);
+  });
+}
+setTimeout(typing, 1500);
