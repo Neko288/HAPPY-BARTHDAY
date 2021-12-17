@@ -52,6 +52,9 @@ footer{
   color: white;
 }
 
+.text-loading{
+  color: black;
+}
 /*以下タイピングアニメーションの設定*/
 
 .main {
