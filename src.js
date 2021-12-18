@@ -3,7 +3,7 @@ const messageMUSIC = function() {
   spinner.classList.add('loaded');
 }
 const spinner = document.getElementById('loading');
-setTimeout(messageMUSIC, 1700);
+setTimeout(messageMUSIC, 1500);
 
 //kamihubuki
 particlesJS("particles-js",{
@@ -120,11 +120,11 @@ if(urlParam) {
 
 //Typing
 const typing = () => {
-  sentence='誕生日おめでとう。今までありがとう。これからもよろしく!';
+  sentence='誕生日おめでとう。今までありがとう。これからもよろしく!  体調にも気を付けてね';
   [...sentence].forEach((character, index) => {
     setTimeout(() => {
       document.querySelector('#typing').textContent += character;
     }, 160 * ++index);
   });
 }
-setTimeout(typing, 1500);
+setTimeout(typing, 1800);
