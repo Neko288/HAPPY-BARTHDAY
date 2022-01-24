@@ -3,7 +3,7 @@ const messageMUSIC = function() {
   spinner.classList.add('loaded');
 }
 const spinner = document.getElementById('loading');
-setTimeout(messageMUSIC, 1500);
+setTimeout(messageMUSIC, 1800);
 
 //kamihubuki
 particlesJS("particles-js",{
@@ -120,7 +120,7 @@ if(urlParam) {
 
 //Typing
 const typing = () => {
-  sentence='誕生日おめでとう。今までありがとう。これからもよろしく!  体調にも気を付けてね';
+  sentence='誕生日おめでとう。今までありがとう。これからもよろしく!';
   [...sentence].forEach((character, index) => {
     setTimeout(() => {
       document.querySelector('#typing').textContent += character;
