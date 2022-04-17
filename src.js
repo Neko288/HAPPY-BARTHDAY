@@ -103,7 +103,7 @@ goal.setSeconds(59);
 function recalc() {
   const counter = countdown(goal);
   const time = `${counter[0]}時間 ${counter[1]}分 ${counter[2]}秒 `;
-  document.getElementById('timer').textContent = time;
+  document.getElementById('timer').textContent = '364日'+time;
   refresh();
 }
 
