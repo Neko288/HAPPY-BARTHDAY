@@ -69,7 +69,7 @@ p {
 }
 
 footer{
-  margin-top: 400px;
+  margin-top: 200px;
   margin-bottom: 50px;
 }
 
@@ -128,8 +128,13 @@ p{
   font-size: 2em;
 }
 
+.text-loading{
+  margin-top:200px;
+  font-size:2em;
+}
+
 footer{
-  margin-top: 500px;
+  margin-top: 250px;
   margin-bottom: 10px;
 }
 
